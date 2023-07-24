@@ -18,7 +18,7 @@ for (var i in elements) {
         el.attributes.datetime.value
     ));
 
-    var s = date.toLocaleDateString() + " " + date.toLocaleTimeString();
+    var s = date.toLocaleDateString(); // + " " + date.toLocaleTimeString();
     el.outerHTML = s;
     el.innerHTML = s;
 }
